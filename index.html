@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="沈徐敏 · 同济大学软件工程（精英班）个人主页" />
+    <title>沈徐敏 · Software Engineer</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="avatar.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="mark" href="#top" aria-label="回到主页"><i></i><i></i><i></i></a>
+      <div class="top-actions">
+        <a class="github-link" href="#contact" aria-label="联系方式">↗ contact</a>
+        <button class="theme-toggle" type="button" aria-label="切换明暗主题">◐</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero ruled" aria-labelledby="name">
+        <div class="technical-drawing" aria-hidden="true">
+          <div class="slab slab-one"></div><div class="slab slab-two"></div><div class="slab slab-three"></div>
+          <div class="slab slab-four"></div><span class="drawing-label">Fig. 01</span>
+        </div>
+        <div class="intro">
+          <div class="avatar"><img src="avatar.jpg" alt="沈徐敏的头像" /></div>
+          <div>
+            <p class="eyebrow">SOFTWARE ENGINEERING · TONGJI UNIVERSITY</p>
+            <h1 id="name">沈徐敏</h1>
+            <p class="tagline">把想法变成可靠的系统，在细节里完成工程的闭环。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel grid-2" id="about">
+        <div>
+          <h2><span>01</span>关于我</h2>
+          <p class="lead">同济大学软件工程（精英班）大四学生，GPA 4.34/5.0，专业排名第 2。关注具身智能、计算机视觉与高质量软件工程。</p>
+          <p>我喜欢把复杂问题拆成可验证的系统：从仿真环境、模型训练，到后端服务与图形渲染，持续将研究想法落地为可运行的产品。</p>
+          <div class="mini-links" id="contact">
+            <a href="mailto:sxm2321@outlook.com">✉ sxm2321@outlook.com</a>
+            <a href="tel:+8617316587258">⌕ 173 1658 7258</a>
+            <span>⌖ 上海 · 中国</span>
+          </div>
+        </div>
+        <aside class="profile-facts" aria-label="个人信息">
+          <div><small>目前身份</small><strong>软件工程学生</strong></div>
+          <div><small>研究方向</small><strong>具身智能 / VLN</strong></div>
+          <div><small>英语能力</small><strong>CET-6 · 526</strong></div>
+          <div><small>可联系</small><strong>实习 / 研究合作</strong></div>
+        </aside>
+      </section>
+
+      <section class="panel" id="research">
+        <h2><span>02</span>科研经历</h2>
+        <article class="feature-card">
+          <div class="feature-top"><p class="mono">ICMR 2026 · CCF-B</p><span class="status">论文成果</span></div>
+          <h3>Decision-Invariant Sim-to-Real Vision-and-Language Navigation</h3>
+          <p class="feature-subtitle">通过伪全景观测构建面向真实机器人部署的视觉语言导航方案</p>
+          <ul>
+            <li>以可实现的传感器配置近似全景观测，显著降低仿真与真实环境间的感知鸿沟。</li>
+            <li>结合统一度量地图表示，在 Habitat 仿真器与真实机器人平台完成验证。</li>
+            <li>相较现有方法，导航成功率提升 4.7% 以上。</li>
+          </ul>
+          <div class="chips"><span>Vision-Language Navigation</span><span>Habitat</span><span>Robotics</span><span>Sim-to-Real</span></div>
+        </article>
+      </section>
+
+      <section class="panel" id="projects">
+        <h2><span>03</span>项目精选 <em>(05)</em></h2>
+        <div class="project-list">
+          <article class="project open">
+            <button class="project-trigger" type="button" aria-expanded="true"><span>InteractiMuse-智触博物 · 多模态文化导览 Web 应用</span><span class="plus">−</span></button>
+            <div class="project-body"><div class="project-meta">AdventureX 2026 · 获奖项目</div><p>面向博物馆场景打造的智能交互 Web 应用，以“智触”连接展品、故事与参观者，让文化探索更具互动性与可达性。</p><div class="award-callout"><span>一等奖</span><span>优胜</span><span>第二名</span><span>最想转发奖</span></div><ul class="project-awards"><li>AdventureX 2026 智能少年赛道一等奖</li><li>PICO 赛道优胜 · Web 应用创作者第二名</li><li>蚂蚁集团灵光赛道最想转发奖</li></ul><a class="project-link" href="https://gallery.adventure-x.cn/projects/cmrz1arx9000002l4ah286wz7" target="_blank" rel="noreferrer">查看 AdventureX 项目页 ↗</a><div class="chips"><span>Web Application</span><span>Interactive Experience</span><span>Museum Tech</span></div></div>
+          </article>
+          <article class="project">
+            <button class="project-trigger" type="button" aria-expanded="false"><span>基于大型语言模型的自主智能无人系统端到端任务执行</span><span class="plus">+</span></button>
+            <div class="project-body"><div class="project-meta">大学生创新创业训练计划 · 2024.04 — 2025.03</div><p>构建 ROS + Gazebo + RViz + MoveIt 机械臂仿真系统；适配 RealSense D435i 虚拟视觉输入，完成多色立方体自动标注、8 类目标识别与 YOLOv8 训练部署。建立 Sim-to-Real 流程，调试效率提升 3 倍。</p><div class="chips"><span>ROS</span><span>Gazebo</span><span>YOLOv8</span><span>OpenCV</span></div></div>
+          </article>
+          <article class="project">
+            <button class="project-trigger" type="button" aria-expanded="false"><span>健康饮食 · Android APP 后端</span><span class="plus">+</span></button>
+            <div class="project-body"><div class="project-meta">2024.09 — 2025.01</div><p>使用 Spring Boot 构建注册登录、饮食记录和个性化建议 API；以 WebSocket 推送实时提醒，使用 MyBatis + MySQL 完成数据模型设计与持久化。</p><div class="chips"><span>Spring Boot</span><span>WebSocket</span><span>MySQL</span><span>MyBatis</span></div></div>
+          </article>
+          <article class="project">
+            <button class="project-trigger" type="button" aria-expanded="false"><span>3D 小球与多米诺骨牌模拟 · 光线追踪模块</span><span class="plus">+</span></button>
+            <div class="project-body"><div class="project-meta">2024.09 — 2025.01</div><p>设计 Ray、RTMaterial、HitRecord 等核心数据结构并封装 RayTracer；使用 BVH 加速相交检测，并探索通过 OpenGL Compute Shader 进行 GPU 并行加速。</p><div class="chips"><span>C++</span><span>OpenGL</span><span>Ray Tracing</span><span>BVH</span></div></div>
+          </article>
+          <article class="project">
+            <button class="project-trigger" type="button" aria-expanded="false"><span>足球经理 · Web 后端</span><span class="plus">+</span></button>
+            <div class="project-body"><div class="project-meta">2023.07 — 2024.09</div><p>基于 ASP.NET 与 C# 构建用户、球员与比赛记录等 RESTful API；连接 Oracle 数据库，完成实体管理、SQL 脚本与存储过程开发。</p><div class="chips"><span>ASP.NET</span><span>C#</span><span>Oracle</span><span>RESTful API</span></div></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel grid-2" id="education">
+        <div>
+          <h2><span>04</span>教育与荣誉</h2>
+          <article class="timeline-item"><p class="mono">2022.09 — 至今</p><h3>同济大学 · 软件工程（精英班）</h3><p>GPA 4.34/5.0（88.44），专业排名第 2。主修数据结构、操作系统、数据库、计算机网络、软件工程与算法设计。</p></article>
+          <article class="timeline-item"><p class="mono">2024.08</p><h3>亚琛工业大学 · 数据分析与 Python 编程夏令营</h3><p>使用 Pandas、NumPy、Matplotlib 与 Seaborn 完成数据清洗、分析和可视化。</p></article>
+        </div>
+        <aside class="recognition"><p class="mono">RECOGNITION</p><ul><li>AdventureX 2026 智能少年赛道一等奖</li><li>PICO 赛道优胜 · Web 应用创作者第二名</li><li>蚂蚁集团灵光赛道最想转发奖</li><li>校级三等奖学金</li><li>优秀志愿者</li><li>VEX 机器人亚洲公开赛冠军</li><li>中国 VEX 机器人大赛中国选拔赛冠军</li><li>同济大学大学生创新创业学术论坛成长组三等奖</li></ul></aside>
+      </section>
+
+      <section class="panel" id="stack">
+        <h2><span>05</span>技术栈</h2>
+        <div class="stack-grid">
+          <div><p>语言</p><a>C++</a><a>Java</a><a>Python</a><a>C#.NET</a></div>
+          <div><p>后端与数据</p><a>Spring Boot</a><a>MySQL</a><a>Oracle</a><a>Redis</a><a>MyBatis</a></div>
+          <div><p>机器人与图形</p><a>ROS</a><a>Gazebo</a><a>OpenGL</a><a>SolidWorks</a></div>
+          <div><p>工作流</p><a>Git</a><a>Postman</a><a>LaTeX</a><a>Markdown</a></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div><strong>沈徐敏</strong><span>Software Engineer / Researcher</span></div>
+      <div class="footer-data"><span>BUILD · 2026</span><span>TYPEFACE · Noto Sans SC + Space Mono</span><span>DEPLOY · GitHub Pages</span></div>
+      <a href="#top" aria-label="回到顶部">↑</a>
+    </footer>
+    <nav class="dock" aria-label="快速导航"><a href="#about">关于</a><a href="#research">科研</a><a href="#projects">项目</a><a href="#stack">技术</a><button class="menu-toggle" type="button" aria-label="展开菜单">☰</button></nav>
+    <script src="script.js"></script>
+  </body>
+</html>
